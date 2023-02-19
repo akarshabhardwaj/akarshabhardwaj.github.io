@@ -52,7 +52,7 @@ $(document).ready(function () {
     $(".carousel").owlCarousel({
         margin: 20,
         loop: false,
-        autoplay: false,   //for carousel effect turn it true
+        autoplay: true,   //for carousel effect turn it true
         autoplayTimeOut: 2000,
         autoplayHoverPause: true,
         responsive: {
