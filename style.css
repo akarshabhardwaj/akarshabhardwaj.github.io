@@ -20,11 +20,11 @@ html {
   background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgb(120, 120, 194);
+  background: rgb(64,170,152);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(120, 120, 194);
+  background: rgb(64,170,152);
 }
 
 /* all similar content styling codes */
