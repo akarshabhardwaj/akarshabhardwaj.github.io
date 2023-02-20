@@ -72,3 +72,7 @@ $(document).ready(function () {
     });
 });
 
+let resume=document.getElementById("Resume")
+resume.addEventListener("click",()=>{
+    window.open("https://drive.google.com/file/d/1I0TZVDrapOw26EuGh7RUifY37bUVvLju/view?usp=share_link")
+})
