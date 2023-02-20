@@ -295,7 +295,10 @@ section .title::after {
 /* .skills .title::after {
   content: "What I Know";
 } */
-
+.skills-images{
+  border: 2px solid teal;
+  padding: 4px;
+}
 /* skills right column */
 .skills .skills-content .column {
   width: calc(50% - 30px);
@@ -304,6 +307,7 @@ section .title::after {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
+
 .skills .skills-content .left .text {
   font-size: 20px;
   font-weight: 600;
@@ -793,4 +797,50 @@ margin: auto;
   font-size: 17px;
   font-family: "Poppins", sans-serif;
   transition: all 0.3s ease; 
+}
+
+#Resume2{
+  background-color: teal;
+  color: white;
+}
+
+#Resume2:hover{
+  background-color: rgb(19, 63, 63);
+  color: white;
+}
+#changed{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: teal;
+  font-style: oblique;
+}
+
+.techStack{
+  font-weight: 600;
+  font-size: 13px;
+  color: lightsalmon;
+  font-style: unset;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logogit{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ color:blueviolet;
+ font-weight: bolder;
+ font-size: 17px;
+}
+
+#logogit:hover{
+  padding: 6px;
+  color: white;
+ 
+}
+body{
+  background-color: #92bcb5;
+}
+#abt{
+  font-family:'Times New Roman', Times, serif;
+  font-stretch: expanded;
+  font-style: oblique;
+  font-size: 19px;
+  font-weight: bolder;
 }
