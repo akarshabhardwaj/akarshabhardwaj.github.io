@@ -82,3 +82,20 @@ let resume2=document.getElementById("Resume2")
 resume2.addEventListener("click",()=>{
     window.open("https://drive.google.com/file/d/1I0TZVDrapOw26EuGh7RUifY37bUVvLju/view?usp=share_link")
 })
+
+// GitHubCalendar(".calendar", "akarshabhardwaj");
+
+// // or enable responsive functionality:
+// GitHubCalendar(".calendar", "akarshabhardwaj", { responsive: true });
+
+// // Use a proxy
+// GitHubCalendar(".calendar", "akarshabhardwaj", {
+//    proxy (username) {
+//      return fetch(`https://your-proxy.com/github?user=${username}`)
+//    }
+// }).then(r => r.text())
+
+GitHubCalendar(".calendar", "akarshabhardwaj");
+// or enable responsive functionality
+GitHubCalendar(".calendar", "akarshabhardwaj", { responsive: true });
+//<div class="js-calendar-graph mx-md-2 mx-3 d-flex flex-column flex-items-end flex-xl-items-center overflow-hidden pt-1 is-graph-loading graph-canvas ContributionCalendar height-full text-center" data-graph-url="/users/akarshabhardwaj/contributions" data-url="/akarshabhardwaj" data-from="2022-02-27 00:00:00 UTC" data-to="2023-02-27 23:59:59 UTC" data-org>
