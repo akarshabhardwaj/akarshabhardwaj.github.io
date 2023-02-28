@@ -818,17 +818,17 @@ margin: auto;
 
 .techStack{
   font-weight: 600;
-  font-size: 13px;
-  color: lightsalmon;
+  font-size: 19px;
+  /* color: lightsalmon; */
   font-style: unset;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #logogit{
  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- color:blueviolet;
+ /* color:rgb(64, 44, 83); */
  font-weight: bolder;
- font-size: 17px;
+ font-size: 25px;
 }
 
 #logogit:hover{
@@ -855,10 +855,12 @@ body{
   justify-content:center;
   margin-bottom:50px;
   /* flex-direction:column; */
-  border: 4px solid #489de2;
+  border: 4px solid #768da3;
   border-radius:10px 10px 10px 10px;
   padding:30px 0px 30px 0px;
 margin-top: 5%;
+color: black;
+background-color: #7972c1;
 }
 
 #git{
@@ -872,4 +874,84 @@ margin-top: 5%;
   border: 4px solid #489de2;
   border-radius:10px 10px 10px 10px;
   padding:30px 0px 30px 0px;
+}
+
+#skillslist{
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 25px;
+  margin: auto;
+  border: 0px solid red;
+  padding: 3%;
+}
+#skillslist div{
+  background-color: white;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+}
+#skillslist img{
+  height: 100px;
+  width: 100px;
+}
+
+#skillslist div:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/* #skillslist img{
+  width: 50%;
+} */
+
+
+@media (min-width:800px) and (max-width:1200px) {
+  #skillslist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+    margin: auto;
+    border: 0px solid red;
+    padding: 3%;
+  }
+}
+
+@media (min-width:600px) and (max-width:799px) {
+  #skillslist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    margin: auto;
+    border: 0px solid red;
+    padding: 3%;
+  }
+}
+
+@media (min-width:400px) and (max-width:599px) {
+  #skillslist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    margin: auto;
+    border: 0px solid red;
+    padding: 3%;
+  }
+}
+
+@media (min-width:250px) and (max-width:399px) {
+  #skillslist{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 15px;
+    margin: auto;
+    border: 0px solid red;
+    padding: 2.5%;
+  }
 }
